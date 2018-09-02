@@ -1,4 +1,4 @@
-var cacheName = static_version;
+var cacheName = "mws-udacity-v1";
 
 self.addEventListener('install', function(event){
   event.waitUntil(
@@ -10,7 +10,7 @@ self.addEventListener('install', function(event){
         "/js/main.js",
         "/js/restaurant_info.js",
         "/js/register.js",
-        "/js/sw.js",
+        "/sw.js",
         "/index.html",
         "/restaurant.html",
         "/img/1.jpg",
